@@ -20,7 +20,7 @@ thead.appendChild(row_head);
 const list = [
   { name: 'apple', price: 30 },
   { name: 'tomato', price: 40 },
-  { name: 'cocumber', price: 45 },
+  { name: 'cucumber', price: 45 },
   { name: 'orange', price: 35 },
   { name: 'banana', price: 30}
 ]
