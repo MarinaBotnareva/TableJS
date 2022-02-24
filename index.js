@@ -8,9 +8,9 @@ body.append(table)
 
 let row_head = document.createElement('tr');
 let heading_1 = document.createElement('th');
-heading_1.innerHTML = "Product";
+heading_1.textContent = "Product";
 let heading_2 = document.createElement('th');
-heading_2.innerHTML = "Price";
+heading_2.textContent = "Price";
 
 row_head.append(heading_1, heading_2);
 thead.append(row_head);
@@ -26,9 +26,9 @@ const list = [
 list.forEach((value) => {
   let row = document.createElement('tr');
   let data1 = document.createElement('td');
-  data1.innerHTML = value.name;
+  data1.textContent = value.name;
   let data2 = document.createElement('td');
-  data2.innerHTML = value.price;
+  data2.textContent = value.price;
 
   row.append(data1, data2);
   tbody.append(row);
